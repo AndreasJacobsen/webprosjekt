@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forprosjekt for gruppe 'Syntax Error'</title>
+		<meta charset="utf-8" />	
+	</head>
+	<body>
+		<h1>Forprosjekt for gruppe 'Syntax Error'</h1>
+		
+		<table border="1">
+			<tr>
+				<th>Prosjekt Manager:</th><td>Dag s236758</td>
+			</tr>
+			<tr>
+				<th>Gruppemedlemmer:</th><td>Andreas s236778</td>
+			</tr>
+			<tr> 
+				<td></td><td>Boris s236725</td>
+			</tr>
+			<tr>
+				<td></td><td>Kristian s236789</td>
+			</tr>
+			<tr> 
+				<td></td><td>Dag s236758</td>
+			</tr>
+		</table>
+	
+		<h2>Valgt Prosjekt: Mr. Tea</h2>
+	
+		<h3>Beskrivelse</h3>
+	
+		<p>'Mr. Tea' er en side om te, for det meste te fra de 5 største teproduserende landene:<br />
+		Kina, India, Kenya, Sri Lanka og Tyrkia.</p>
+		
+		<p>Mr. Tea er sidens hovedperson og kommer til å ha ansvar for besøkendes magiske oppdagelsesreise i teens rike.</p>
+	
+		<h3>Bruksområder</h3>
+	
+			<ul>
+				<li>Finn info om te og forskjellig tekultur</li>
+				<li>Finn oppskrifter</li>
+				<li>Finn teutstyr</li>
+				<li>Finn tebutikker</li>
+			</ul>
+	
+		<h3>Funksjonalitet</h3>
+	
+			<ul>
+				<li>Få oversikt over de viktigste teplantesortene</li>
+				<li>Mulighet til å bla gjennom siden ved hjelp av regionskart eller alfabetisk oppslagsverk</li>
+				<li>Les om de etiske problemstillingene rundt moderne teproduksjon og distrubisjon, 
+				samt bakgrunnsinfo fra 1500-tallet og oppover</li>
+				<li>Les om gruppemedlemmenes teutstyr og/eller vaner</li>
+			</ul>
+	
+		<h3>Nettsidens oppbygging</h3>
+		        
+		        <p><img src="http://student.cs.hioa.no/~s236758/forprosjektimg/desktopsketch.jpg" /><br />
+		        <strong>Desktop utseende</strong></p>
+	
+			<ul>
+				<li>For å gjøre siden tilgjengelig for så mange som mulig, bruker vi nettets lingua franca: Engelsk.</li>
+				<li>Siden skal utformes så universellt som mulig, slik at te-drikkere fra alder 2 til 99 kan få info om te.</li>
+				<li>Siden er responsiv, støtter følgende enhets vidjer:</li>
+					<ul>
+						<li>Støtte for mobil: 0px- 480px, nettbrett: 481px -768px, 
+						liten dataskjerm: 769px - 1024px, stor dataskjem 1025px - upwards</li>
+					</ul>
+				<li>komponentfiler til gjenbruk(brukes på alle sidene, ved hjelp av php include: header.php, footer.php</li>
+					<ul>
+						<li>header: inneholder banner/menyer, 'auto-hide' mens man skroller, vises igjen 'on-hover'</li>
+						<li>footer: Copyright info, contact info, project info, link til feedback/tilbakemeldingssiden.</li>
+					</ul>
+				<li>index.php - Introduksjon til siden vår.</li>
+				<li>plants.php - gjennomgang av de forskjellige teplanteslagene</li>
+				<li>regions.php - Kart over hvor de store produsentene er</li>
+				<li>teatrade.php - Fairtrade vs. "Freetrade"</li>
+				<li>ourgear.php - Gruppa viser frem utstyr/te-vaner</li>
+				<li>feedback.php - side for lesing og innsending av feedback/tilbakemelding på siden vår. Feedback er lesbar for alle, bruker PHP</li>
+			</ul>
+			
+			<p><img src="http://student.cs.hioa.no/~s236758/forprosjektimg/mobsketch.jpg" /><br />
+			<strong>Mobilutseende</strong></p>
+	
+		<h3>Oversikt over nødvendig oppgaver</h3>
+	
+			<ul>
+				<li>Research til plants.php</li>
+				<li>Research til regions.php</li>
+				<li>Research til teatrade.php</li>
+				<li>Ta bilder/ skriv innhold til ourgear.php</li>
+				<li>Coding av stylesheet.CSS</li>
+					<ul>
+						<li>Skriv styles relevant til våre støttede skjermtyper</li>
+					</ul>
+				<li>Coding av plants.php</li>
+				<li>Coding av regions.php</li>
+				<li>Coding av teatrade.php</li>
+				<li>Coding av index.php</li>
+				<li>Coding av feedback.php</li>
+			</ul>
+		<h3>Metodebruk</h3>
+		
+			<p>Gruppen har brukt V-modellen i utviklingen av siden, 
+			da den strukturen gir mest åpenhet for revisjon av konseptet hvis konseptet viser seg å trenge nærmere omtanke.</p>
+			<p>Gruppen kommer til å bruke Github for versjonskontroll, 
+			da vi ønsker å kunne gå tilbake i utviklings historikken vår om funksjonalitet skulle slutte å virke i løp av utvilklingsprosessen.<br /> 
+			Github er også en vidt annerkjent standard for samarbeid i små og store it-prosjekt i bransjen, 
+			så vi ønsker derfor et læringsutbytte som vil forberede oss til bruk av Github i eventuellt arbeidsliv.</p>
+			
+		<h3>Verktøy</h3>
+		        <p>Vi bruker enkle teksteditorer, ikke IDE-miljø:<br />
+		        Atom og gedit</p>
+		 <h3>Teknologier</h3>
+		        <p>Vi bruker HTML, CSS, Javascript og PHP.
+		        PHP er spesiellt kjekt i sammenheng med å lage elementer som skal eksistere på alle sidene våre, som f.eks header og footer.
+		        Det vil sørge for at endringer som gjøres i disse filene vil bli gjeldende for alle dokumenter som har disse inkludert ved hjelp av <em>include</em> funksjonen. Der PHP brukes for å utføre andre oppgaver vil dette kommenteres i kildekoden.</p>
+		        
+		
+		<h3>Målplan</h3>
+			
+			<table border="1">
+				<caption>Prosjektets videre utførelse</caption>
+				<tr>
+					<th>Prosjektstart:</th><td>2014.10.28</td>
+				</tr>
+				<tr>
+					<th>Prosjektslutt:</th><td>2014.11.30</td>
+				</tr>
+				<tr>
+					<th>28. okt til 30. okt:</th><td>Research-fasen. Research gjennomgåes dag 3.</td>
+				</tr>
+				<tr>
+					<th>31. okt til 14. nov:</th><td>Coding</td>
+				</tr>
+				<tr>
+					<th>15. nov til 22. nov:</th><td>Testing</td>
+				</tr>
+				<tr>
+					<th>23. nov til 26. nov:</th><td>Finpuss</td>
+				</tr>
+				<tr>
+					<th>27. nov til 31. nov:</th><td>Ferdigstilling/innlevering</td>
+				</tr>
+			</table>
+		
+		<h3>Arbeidsoppgavefordeling</h3>
+		        <ul>
+		                <li>Research-fasen:</li>
+		                        <ul>
+		                                <li>Andreas: Planter, Kenya, sin egen te</li>
+		                                <li>Boris: India, Tyrkia, egen te</li>
+		                                <li>Dag: Kina, egen te, responsivt design, universell utforming</li>
+		                                <li>Kristian: Sri Lanka, teatrade, sin egen te</li>
+		                        </ul>
+		               <li>Kodefasen:</li>
+		                        <ul>
+		                        	<li>Andreas: plants.php, footer.php, CSS</li>
+		                        	<li>Boris: index.php, header.php, CSS</li>
+		                        	<li>Dag: feedback.php, ourgear.php, footer.php, CSS</li>
+		                        	<li>Kristian: teatrade.php, header.php, javascript, CSS</li>
+		                        </ul>
+		         	<li>Testefasen, testing gjøres av alle, QC-ansvar er fordelt slik:</li>
+		         		<ul>
+		         			<li>Andreas: plants.php, header.php</li>
+		         			<li>Boris: index.php, footer.php, CSS</li>
+		         			<li>Dag. feedback.php, ourgear.php, header.php</li>
+		         			<li>Kristian: teatrade.php, footer.php, javascript</li>
+		         		</ul>
+		         	<li>Finpuss ansvarsfordelig som tidligere.</li>
+		         	<li>Ferdigstilling/innlevering:</li>
+		         		<ul>
+		         			<li>QC-ansvar: Prosjekt Manager</li>
+		         			<li>Ansvar for opplasting: Prosjekt Manager</li>
+		         		</ul>
+		         </ul>
+		  
+		  <h3>Oppsummering</h3>
+		  	<p>Dette er planen vår, eventuelle endringer underveis bør forventes</p>
+		  	<p>Ved eventuelle spørsmål bes disse rettes til: Project Manager's epost, 
+		  	<a href="mailto:s236758@stud.hioa.no">s236758@stud.hioa.no</a>.
+		                                	
+	</body>
+</html>
