@@ -1,0 +1,20 @@
+.navigationbox
+{
+background-color:#FFD6AC;
+/*divboksene til hver navigerings box*/
+border-top: 2px solid #000;
+border-right: 6px solid #000;
+border-bottom: 6px solid #000;
+border-left: 2px solid #000;
+background-image:;
+margin: 30px 100px 10px 100px ;
+padding: 2%;
+ 
+/*tekstredigering*/
+text-align: center;
+font-size:4em;
+font-family: Tahoma, Geneva, sans-serif;
+ 
+ 
+ 
+}
