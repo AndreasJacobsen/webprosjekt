@@ -1,3 +1,4 @@
+
 .navigationbox
 {
 display: block;
@@ -16,14 +17,16 @@ padding: 2%;
 /*tekstredigering*/
 text-align: center;
 font-size:4em;
+
 font-family: Tahoma, Geneva, sans-serif;
 
+
 }
 
-.fill-div{
-        display:block;
-        height:100%;
-        width:100%;
-        text-decoration:none;
+.fill-div
+{
+    display:block;
+    height:10%;
+    width:100%;
+    text-decoration:none;
 }
-
