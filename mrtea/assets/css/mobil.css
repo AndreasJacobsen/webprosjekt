@@ -7,7 +7,7 @@ header
 
 .navigationbox
 {
-background-color:#FF0000;
+background-color: #F4F2C5;
 /*divboksene til hver navigerings box*/
 border-top: 2px solid #888;
 border-right: 6px solid #888;
@@ -15,12 +15,12 @@ border-bottom: 6px solid #888;
 border-left: 2px solid #888;
 margin: 30px 100px 10px 100px ;
 padding: 2%;
-width: 60% ;
+width: 75% ;
 height: 15%;
 
 /*tekstredigering*/
 text-align: center;
-font-size:4em;
+font-size:3.5em;
 
 font-family: Tahoma, Geneva, sans-serif;
 
