@@ -42,8 +42,11 @@ article{
 article:target{
 	display: block ;
 }
-	
 
+#about{
+	display: block !important;
+}
+	
 .fill-div
 {
     display:block;
