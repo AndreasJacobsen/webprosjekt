@@ -39,6 +39,11 @@ article{
 	display:none ;
 }
 
+article:target{
+	display: block ;
+}
+	
+
 .fill-div
 {
     display:block;
