@@ -24,9 +24,10 @@ font-size:3.5em;
 
 font-family: Tahoma, Geneva, sans-serif;
 
+}
 
-
-
+article{
+	display:none ;
 }
 
 .fill-div
