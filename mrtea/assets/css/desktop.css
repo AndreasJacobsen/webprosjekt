@@ -5,3 +5,8 @@ body {
 .navigationbox{
 	display:none;
 }
+article{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
