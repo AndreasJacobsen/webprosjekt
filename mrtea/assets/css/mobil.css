@@ -4,6 +4,10 @@ header
   margin: none;
   padding: none;
 }*/
+#header
+{
+
+}
 
 body
 {
@@ -21,11 +25,11 @@ border-left: 2px solid #888;
 margin: 30px 30px 30px 30px ;
 padding: 2%;
 width: 75% ;
-height: 15%;
+height: 10%;
 
 /*tekstredigering*/
 text-align: center;
-font-size:3.5em;
+font-size:3em;
 
 font-family: Tahoma, Geneva, sans-serif;
 
