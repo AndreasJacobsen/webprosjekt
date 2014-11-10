@@ -54,3 +54,6 @@ article:target{
     width:100%;
     text-decoration:none;
 }
+#menu{
+    display:none;
+}
