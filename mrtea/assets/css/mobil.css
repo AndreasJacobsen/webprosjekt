@@ -4,6 +4,15 @@ header
   margin: none;
   padding: none;
 }*/
+#header
+{
+
+}
+
+body
+{
+	background-color: blue;
+}
 
 .navigationbox
 {
@@ -13,21 +22,27 @@ border-top: 2px solid #888;
 border-right: 6px solid #888;
 border-bottom: 6px solid #888;
 border-left: 2px solid #888;
-margin: 30px 100px 10px 100px ;
+margin: 30px 30px 30px 30px ;
 padding: 2%;
 width: 75% ;
-height: 15%;
+height: 10%;
 
 /*tekstredigering*/
 text-align: center;
-font-size:3.5em;
+font-size:3em;
 
 font-family: Tahoma, Geneva, sans-serif;
 
-
-
-
 }
+
+article{
+	display:none ;
+}
+
+article:target{
+	display: block ;
+}
+	
 
 .fill-div
 {
