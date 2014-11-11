@@ -4,6 +4,7 @@
 body {
     /*background-color: #990033;*/
     background-image: url("../images/water-droplets.png");
+    font-family:sans-serif;
 }
 article{
 	margin-left:auto;
@@ -63,4 +64,14 @@ article{
 
 #menu ul li ul li a:hover{
     background-color: #111;
+}
+h1, h2{
+	text-align:center;
+}
+.ourtea{
+	display: none ;
+}
+.ourtea:target{
+	display: block ;
+	#ourteaIntro{display:none}
 }
