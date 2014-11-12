@@ -1,0 +1,90 @@
+/*rules for all screen sizes*/
+
+
+body {
+    /*background-color: #990033;*/
+    background-image: url("../images/water-droplets.png");
+    font-family:sans-serif;
+}
+article{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	background-color: white ;
+}
+#menu{
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding: 0px;
+}
+
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul li{
+    background-color: #41A810;
+    position: relative;
+    border: 1px solid #257100;
+    float: left;
+    list-style-type: none; 
+}
+
+#menu ul li a{
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu ul ul {
+    position: absolute;
+    display: none;
+    
+}
+#menu ul li:hover{
+    background-color: #555;
+    
+}
+    
+#menu ul li:hover ul{
+    display: block;
+    
+}
+#menu ul li a:hover{
+    color: cadetblue;
+    
+}
+
+#menu ul li ul li a:hover{
+    background-color: #111;
+}
+#ourteaIntro{
+	text-align: center ;
+}
+#ourteaList{
+	text-align: center ;
+	list-style-type: none ;
+}
+
+#ourteaList a {
+	color: blue ;
+}
+
+h1, h2{
+	text-align:center;
+}
+.ourtea{
+	display: none ;
+}
+.ourtea:target{
+	display: block ;
+	#ourteaIntro{display:none}
+}
