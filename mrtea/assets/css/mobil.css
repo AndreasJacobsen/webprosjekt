@@ -35,11 +35,11 @@ font-family: Tahoma, Geneva, sans-serif;
 
 }
 
-article{
+#showArticle{
 	display:none ;
 }
 
-article:target{
+#showArticle:target{
 	display: block ;
 }
 
