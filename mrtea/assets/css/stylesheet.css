@@ -10,6 +10,7 @@ article{
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;
+	background-color: white ;
 }
 #menu{
    width: 800px;
@@ -65,6 +66,18 @@ article{
 #menu ul li ul li a:hover{
     background-color: #111;
 }
+#ourteaIntro{
+	text-align: center ;
+}
+#ourteaList{
+	text-align: center ;
+	list-style-type: none ;
+}
+
+#ourteaList a {
+	color: blue ;
+}
+
 h1, h2{
 	text-align:center;
 }
