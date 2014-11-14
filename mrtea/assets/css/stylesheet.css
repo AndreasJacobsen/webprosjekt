@@ -8,23 +8,31 @@ body {
 }
 
 header{
-	margin-top: -1em;
-	margin-left: -1em;
-	margin-right: -1em;
+	margin-top: -0.5em;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
 }
 article{
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;
 	background-color: white ;
+	margin: 3% 10% 1% 10% ;
+	padding: 2% ;
+	border-top: 0.1em solid #090;
+	border-right:0.5em solid #090;
+	border-left:0.1em solid #090;
+	border-bottom:0.5em solid #090 ;
+	
 }
 #menu{
-   width: 800px;
+   width: 70%;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 0px;
    margin-top: 0px;
-   padding: 0px;
+   padding: 0px; 
+   position: relative;
 }
 
 #menu ul{
@@ -39,15 +47,21 @@ article{
     float: left;
     list-style-type: none; 
 }
+.file{
+	width: 19% ;
+}
 
+.menuli{
+	width: 100% ;
+}
 #menu ul li a{
-    display: block;
-    font-size: 14px;
-    height: 30px;
-    line-height: 30px;
-    width: 150px;
-    text-decoration: none;
-    text-align: center;
+	display: block;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	/*width: 150px;*/    
+	text-decoration: none;
+	text-align: center;
 }
 
 #menu ul ul {
@@ -70,7 +84,7 @@ article{
 }
 
 #menu ul li ul li a:hover{
-    background-color: #111;
+    background-color: #040;
 }
 #ourteaIntro{
 	text-align: center ;
