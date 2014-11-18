@@ -38,7 +38,9 @@ font-family: Tahoma, Geneva, sans-serif;
 #showArticle{
 	display:none ;
 }
-
+.ourtea img{
+	width:90% !important;
+}
 #showArticle:target{
 	display: block ;
 }

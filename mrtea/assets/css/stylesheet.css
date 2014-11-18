@@ -113,3 +113,10 @@ h1, h2{
 .ourtea h2{
 	text-align: left ;
 }
+.ourtea img{
+	width: 40% ;
+	border-top: 0.1em solid #090;
+	border-right:0.5em solid #090;
+	border-left:0.1em solid #090;
+	border-bottom:0.5em solid #090 ;
+}
