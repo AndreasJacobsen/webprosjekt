@@ -110,4 +110,6 @@ h1, h2{
 	display: block ;
 	#ourteaIntro{display:none}
 }
-
+.ourtea h2{
+	text-align: left ;
+}
