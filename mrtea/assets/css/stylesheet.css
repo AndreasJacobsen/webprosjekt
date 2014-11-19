@@ -120,3 +120,57 @@ h1, h2{
 	border-left:0.1em solid #090;
 	border-bottom:0.5em solid #090 ;
 }
+.regions-nav{
+	width: 90% ;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 1em ;
+}
+.regions-nav li{
+	display: inline-block ;
+	text-decoration:none;
+	
+}
+.region-flag{
+	width: 19% ;
+	height: 201px ;
+	display:inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;	
+}
+.region:target{
+	display:block;
+}
+.picture-frame{
+	/*margin-left: auto ;
+	margin-right: auto ;*/
+	/*width: 33% ;*/
+	text-align: center ;
+	
+}
+.fill-div
+{
+    display:block;
+    height:100%;
+    width:100%;
+    text-decoration:none;
+}
+#flag-chn{
+	background-image: url('../images/flag-chn.jpg');
+}
+#flag-ind{
+	background-image: url('../images/flag-ind.jpg');
+}
+#flag-ken{
+	background-image: url('../images/flag-ken.jpg');
+}
+#flag-sri{
+	background-image: url('../images/flag-sri.jpg');
+}
+#flag-tur{
+	background-image: url('../images/flag-tur.jpg');
+}
+
+.region{
+	display:none ;
+}

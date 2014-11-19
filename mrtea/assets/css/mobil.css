@@ -48,17 +48,17 @@ font-family: Tahoma, Geneva, sans-serif;
 #about{
 	display: block !important;
 }
-	
-.fill-div
-{
-    display:block;
-    height:100%;
-    width:100%;
-    text-decoration:none;
-}
+
 #menu{
     display:none;
 }
 #mobilBack{
 	display: block !important;
+}
+.picture-frame img{
+	width: 90% !important ;
+}
+.region-flag{
+	width: 90% !important ;
+	margin: 0px 0px 0px 0px ;	
 }
