@@ -140,9 +140,10 @@ h1, h2{
 }
 
 .picture-frame{
-	margin-left: auto ;
+	/*margin-left: auto ;
 	margin-right: auto ;
-	/*width: 33% ;*/
+	width: 33% ;*/
+	text-align:center;
 }
 .fill-div
 {
