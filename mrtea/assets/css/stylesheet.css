@@ -138,15 +138,11 @@ h1, h2{
 	background-size: contain;
 	background-repeat: no-repeat;	
 }
-.region:target{
-	display:block;
-}
+
 .picture-frame{
-	/*margin-left: auto ;
-	margin-right: auto ;*/
+	margin-left: auto ;
+	margin-right: auto ;
 	/*width: 33% ;*/
-	text-align: center ;
-	
 }
 .fill-div
 {
@@ -170,7 +166,9 @@ h1, h2{
 #flag-tur{
 	background-image: url('../images/flag-tur.jpg');
 }
-
+/*.region:target{
+	display:block;
+}
 .region{
 	display:none ;
-}
+}*/
