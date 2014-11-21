@@ -20,10 +20,15 @@ a:focus{
 	color: red !important;
 }
 header{
+	width:100% ;
 	margin-top: -0.5em;
 	margin-left: -0.5em;
 	margin-right: -0.5em;
 }
+header img{
+	width:100% ;
+}
+
 article{
 	color: #333333;
 	margin-left:auto;

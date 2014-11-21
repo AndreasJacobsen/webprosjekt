@@ -8,21 +8,29 @@
 		<link rel="stylesheet" media="(max-width: 768px)" href="assets/css/tablet.css" />
 		<link rel="stylesheet" media="(min-width: 769px)" href="assets/css/desktop.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" /> 
+		<script type="text/javascript" src="assets/js/tealife.js"></script>
 	</head>
 	<body>
 		<header>
-			<a href="./">
-			<img src="assets/images/header.png" alt="Tea leafs header" align="middle" style="width:100%" id="header">
+			<a href="./" title="Mr. Tea - Home" tabindex="1">
+			<img src="assets/images/header.png" alt="Tea leafs header" align="middle" id="header">
 			</a>
 			<!-- if not mobil-->
 		</header>
+
+			<aside>
+  			
+
+			</aside>
+
+
 		<nav>
 			<div id="menu">
 				<ul>
-					<li class="file"><a href="#">Plants</a></li>
+					<li class="file"><a href="plants.html" title="Mr. Tea - Plants" tabindex="2">Plants</a></li>
 				</ul>
 				<ul>
-					<li class="file"><a href="regions/">Region</a>
+					<li class="file"><a href="regions/" title="Mr. Tea - Tea producing regions" tabindex="3">Region</a>
 						<ul>
 							<li class="menuli"><a href="regions/china.html#China">China</a></li>
 							<li class="menuli"><a href="regions/india.html#India">India</a></li>
@@ -33,10 +41,10 @@
 					</li>
 				</ul>
 				<ul>
-					<li class="file"><a href="#">Tea trade</a></li>
+					<li class="file"><a href="teatrade.html" title="Mr. Tea - History of the tea trade" tabindex="4">Tea trade</a></li>
 				</ul>
 				<ul>
-					<li class="file"><a href="ourgear.html">Our gear</a>
+					<li class="file"><a href="ourgear.html" title="Mr. Tea - The tea gang talks tea" tabindex="5">Our gear</a>
 						<ul>
 							<li class="menuli"><a href="ourgear.html#Boris">Boris tea</a></li>
 							<li class="menuli"><a href="ourgear.html#Dag">Dag tea</a></li>
@@ -46,7 +54,7 @@
 					</li>
 				</ul>
 				<ul>
-					<li class="file"><a href="#">Feedback</a></li>
+					<li class="file"><a href="feedback.php" title="Mr. Tea - Your feedback" tabindex="6">Feedback</a></li>
 				</ul>
 			</div><!-- Slutt på div menu -->
 		</nav>
@@ -56,15 +64,14 @@
 				<h1>The Mr. Tea gang's tea-blah</h1>
 				
 				<div class="picture-frame">
-					<img id="teaLife" onclick="teaLife()" src="assets/images/tea-spoon.jpg" alt="Some like their tea roasted in a spoon, by lighter-flame" />
+					<img id="teaLife" onclick="tea()" src="assets/images/tea-spoon.jpg" alt="Some like their tea roasted in a spoon, by lighter-flame" />
 				</div>
-				
 				<p>Our people sure do like tea, choose a crew-member and be inspired:</p>
 					<ul id="ourteaList">
-						<li><a href="#Boris">Boris the Explorer</a></li>
-						<li><a href="#Dag">Dag the self-medicator</a></li>
-						<li><a href="#Andreas">Andreas of the Graveyard-shift</a></li>
-						<li><a href="#Kristian">Kristian "Mama knows best" Munter</a></li>
+						<li><a href="#Boris" tabindex="7">Boris the Explorer</a></li>
+						<li><a href="#Dag" tabindex="8">Dag the self-medicator</a></li>
+						<li><a href="#Andreas" tabindex="9">Andreas of the Graveyard-shift</a></li>
+						<li><a href="#Kristian" tabindex="10">Kristian "Mama knows best" Munter</a></li>
 				
 			</div>
 			<div class="ourtea" id="Boris">
