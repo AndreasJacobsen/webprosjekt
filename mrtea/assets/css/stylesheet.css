@@ -29,7 +29,7 @@ header img{
 	width:100% ;
 }
 
-article{
+article, main{
 	color: #333333;
 	margin-left:auto;
 	margin-right:auto;
