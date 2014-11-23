@@ -58,26 +58,24 @@
 				</ul>
 			</div><!-- Slutt på div menu -->
 		</nav><br />
-		<main><?php if(!isset($_POST['submit'])){ ?><br /><br /><br />
+		<main>
+			<h1 id="feedh1">Feedback!</h1><?php if(!isset($_POST['submit'])){ ?>
 			<form action="" method="post">
 				<fieldset>
-					<label for="formName">Name: </label>
-					<input id="formName" type="text" name="name" /><br />
+					<input id="formName" type="text" name="name" placeholder="Your name" required /><br />
 					
-					<label for="formFavTea">Favorite Tea:</label>
-					<input id="formFavTea" type="text" name="favTea" /><br />
+
+					<input id="formFavTea" type="text" name="favTea" placeholder="Your favorite tea" required /><br />
 					
-					<label for="formFeedback">Feedback:</label><br />
-					<textarea id="formFeedback" name="feedback" /></textarea><br />
+					<textarea id="formFeedback" name="feedback" placeholder="Your feedback" required/></textarea><br />
 					
 					<input type="submit" name="submit" value="Submit feedback" />
 				</fieldset>
 			</form>
 			<?php 
-				}elseif($_SESSION['submited'] == "submited" ){
-					//no new submissions before the session expires.
 				}else{ 
 					$line = $_POST['name'] . "***---***" . $_POST['favTea'] . "***---***" . $_POST['feedback'] . "***---***" ;
+					$line .= date('Y.m.d H:i:s') . "***---***" ;
 					$line = htmlentities($line) ;
 					$line = str_replace("\r\n", '<br />', $line) ;
 					
@@ -90,7 +88,9 @@
 					
 					echo '<h2>Mr. Tea thanks you for the feedback, foo</h2>' ;
 				}
-				
+			?>
+			<hr />
+			<?php
 				$array = file('assets/txt/feedback.txt') ;
 				$array = array_reverse($array) ;
 				
@@ -98,7 +98,8 @@
 					$next = explode("***---***", $line) ;
 					echo 'Feedback from: ', $next[0], "<br />\n\t",
 						'Favorite Tea: ', $next[1], "<br />\n\t",
-						'<blockquote>"<em>', $next[2], '"</em></blockquote>', "\n\t",
+						'<blockquote>"<em>', $next[2], '"</em></blockquote><br />', "\n\t",
+						'<em>', $next[3], '</em>', "\n\t",
 						'<hr />', "\n\t" ;
 				}
 			?>

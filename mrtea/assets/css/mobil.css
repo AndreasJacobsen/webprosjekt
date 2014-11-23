@@ -4,6 +4,9 @@ header
   margin: none;
   padding: none;
 }*/
+article, main{
+	width:85% !important;
+}
 #header
 {
 
