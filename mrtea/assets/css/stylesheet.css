@@ -34,7 +34,7 @@ header img{
 	width:100% ;
 }
 
-article, main{
+main{
 	color: #333333;
 	margin-left:auto;
 	margin-right:auto;
@@ -47,6 +47,20 @@ article, main{
 	border-left:0.1em solid #090;
 	border-bottom:0.5em solid #090 ;
 }
+article{
+	color: #333333;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	background-color: white ;
+	margin: 3% 10% 1% 10% ;
+	padding: 2% ;
+	border-top: 0.1em solid #090;
+	border-right:0.1em solid #090;
+	border-left:0.1em solid #090;
+	border-bottom:0.1em solid #090 ;
+}
+
 #menu{
    width: 70%;
    margin-left: auto;
@@ -226,3 +240,9 @@ h1, h2{
 .region{
 	display:none ;
 }*/
+
+p{
+	margin-left:auto;
+	margin-right: auto ;
+	width: 65% ;
+}

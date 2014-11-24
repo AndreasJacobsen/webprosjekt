@@ -4,8 +4,11 @@ header
   margin: none;
   padding: none;
 }*/
-article, main{
-	width:85% !important;
+main{
+	width:97% !important;
+}
+article{
+	width:100% !important;
 }
 #header
 {
@@ -64,4 +67,7 @@ font-family: Tahoma, Geneva, sans-serif;
 .region-flag{
 	width: 90% !important ;
 	margin: 0px 0px 0px 0px ;	
+}
+p{
+	width: 100% !important ;
 }
