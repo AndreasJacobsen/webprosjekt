@@ -241,7 +241,7 @@ h1, h2{
 	display:none ;
 }*/
 
-p{
+article ul, p{
 	margin-left:auto;
 	margin-right: auto ;
 	width: 65% ;
