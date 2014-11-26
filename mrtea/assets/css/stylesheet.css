@@ -34,7 +34,7 @@ header img{
 	width:100% ;
 }
 
-article, main{
+main{
 	color: #333333;
 	margin-left:auto;
 	margin-right:auto;
@@ -47,13 +47,27 @@ article, main{
 	border-left:0.1em solid #090;
 	border-bottom:0.5em solid #090 ;
 }
+article{
+	color: #333333;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	background-color: white ;
+	margin: 3% 10% 1% 10% ;
+	padding: 2% ;
+	border-top: 0.1em solid #090;
+	border-right:0.1em solid #090;
+	border-left:0.1em solid #090;
+	border-bottom:0.1em solid #090 ;
+}
+
 #menu{
    width: 70%;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 0px;
    margin-top: 0px;
-   padding: 0px; 
+   padding: 0px;
    position: relative;
 }
 
@@ -67,7 +81,7 @@ article, main{
     position: relative;
     border: 1px solid #257100;
     float: left;
-    list-style-type: none; 
+    list-style-type: none;
 }
 .file{
 	width: 19% ;
@@ -81,7 +95,7 @@ article, main{
 	font-size: 14px;
 	height: 30px;
 	line-height: 30px;
-	/*width: 150px;*/    
+	/*width: 150px;*/
 	text-decoration: none;
 	text-align: center;
 	color: #3f36b7;
@@ -91,20 +105,20 @@ article, main{
 #menu ul ul {
     position: absolute;
     display: none;
-    
+
 }
 #menu ul li:hover{
     background-color: #555;
-    
+
 }
-    
+
 #menu ul li:hover ul{
     display: block;
-    
+
 }
 #menu ul li a:hover{
     color: cadetblue;
-    
+
 }
 
 #menu ul li ul li a:hover{
@@ -175,7 +189,7 @@ h1, h2{
 .regions-nav li{
 	display: inline-block ;
 	text-decoration:none;
-	
+
 }
 .region-flag{
 	width: 19% ;
@@ -183,7 +197,7 @@ h1, h2{
 	display:inline-block;
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin-top: 0.2em ;	
+	margin-top: 0.2em ;
 }
 .region-flag a{
 	font-weight: bold ;
@@ -207,7 +221,7 @@ h1, h2{
 }
 #flag-ken a{
 	color: #ff0e01;
-} 
+}
 #flag-sri{
 	background-image: url('../images/flag-sri.jpg');
 }
@@ -226,3 +240,9 @@ h1, h2{
 .region{
 	display:none ;
 }*/
+
+article ul, p{
+	margin-left:auto;
+	margin-right: auto ;
+	width: 65% ;
+}
