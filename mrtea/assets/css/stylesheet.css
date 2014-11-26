@@ -241,7 +241,7 @@ h1, h2{
 	display:none ;
 }*/
 
-article ul, p{
+#funfacts, p{
 	margin-left:auto;
 	margin-right: auto ;
 	width: 65% ;
