@@ -14,7 +14,7 @@ article, main{
 
 body
 {
-	background-color: blue;
+	background-color:
 }
 
 .navigationbox
@@ -63,5 +63,5 @@ font-family: Tahoma, Geneva, sans-serif;
 }
 .region-flag{
 	width: 90% !important ;
-	margin: 0px 0px 0px 0px ;	
+	margin: 0px 0px 0px 0px ;
 }
