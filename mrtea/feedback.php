@@ -13,7 +13,7 @@
 	<body>
 		<header>
 			<a href="./" id="top" title="Mr. Tea - Feedback" tabindex="1">
-			<img src="assets/images/header.png" alt="Tea leafs header" id="header">
+			<img src="assets/images/header.png" alt="Tea leafs header, click to go to the home page" id="header">
 			</a>
 			<!-- if not mobil-->
 		</header>
@@ -108,7 +108,7 @@
 			<div id="topbutton">
 				<a href="#top">
 				<p>[To page-top]</p>
-				<img src="assets/images/top.png" />
+				<img src="assets/images/top.png" alt="This arrow will take you to the top of the page" />
 				</a>
 			</div>
 			<p><strong>Disclaimer:</strong><em>
