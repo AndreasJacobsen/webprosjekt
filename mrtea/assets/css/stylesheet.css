@@ -241,8 +241,36 @@ h1, h2{
 	display:none ;
 }*/
 
-#funfacts, p{
+.center, #funfacts, p{
 	margin-left:auto;
 	margin-right: auto ;
 	width: 65% ;
 }
+
+footer{
+	position: inherit ;
+	margin-left: auto ;
+	margin-right: auto ;
+	color: #333333;
+	width:80%;
+	background-color: white ;
+	border-top: 0.1em solid #090;
+	border-right:0.4em solid #090;
+	border-left:0.1em solid #090;
+	border-bottom:0.4em solid #090 ;
+}
+footer p{
+	font-size:0.6em ;
+	width:100% ;
+	margin-bottom:0px;
+}
+#topbutton img{
+	position: fixed;
+	width: 100px;
+	top: 85%;
+	left: 94%;
+}
+#topbutton p{
+	display: none ;
+}
+
