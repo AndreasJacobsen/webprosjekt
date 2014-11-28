@@ -22,6 +22,7 @@ body
 
 .navigationbox
 {
+display:block !important ;
 background-color: #F4F2C5;
 /*divboksene til hver navigerings box*/
 border-top: 2px solid #888;
@@ -70,4 +71,13 @@ font-family: Tahoma, Geneva, sans-serif;
 }
 p{
 	width: 100% !important ;
+}
+footer{
+	width: 100% !important ;
+}
+#topbutton p{
+	display:block !important ;
+}
+#topbutton img{
+	display: none !important ;
 }
